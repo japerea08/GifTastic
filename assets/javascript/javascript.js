@@ -48,7 +48,7 @@ $(document).ready(function(){
 		//ajax method to get image of the car
 		var apiKey = "&api_key=jGrCdIntTvmcWCtiqOQMvz8IBvbxXvfs";
 		var q = $(this).attr("data-car");
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + q +"&limit=10" + apiKey;
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + q +"&limit=10" + apiKey;
 
 		console.log("URL: " + queryURL);
 
